@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        Selectors : 
+            Selectors simply represents which properties corresponding to their values are going to be implement on which specific element. 
+
+            Types of selectors : 
+                a. Element Selector | Tag Selector 
+                   syntax : 
+                   element_name{
+                    property_name:value;
+                    property_name:value;
+                    .....
+                   }
+
+                    example : 
+                    div{
+                        color:red;
+                        font-size:45px;
+                    }
+
+
+                b. Id selector (#)
+                   syntax : 
+                   #id_name{
+                    property_name:value;
+                    property_name:value;
+                    .....
+                   }
+
+                    example : 
+                    #demo{
+                        font-size:45px;
+                        color:green;
+                    }
+
+                c. Class selector (.)
+                syntax : 
+                   .class_name{
+                    property_name:value;
+                    property_name:value;
+                    .....
+                   }
+
+                    example : 
+                    .demo{
+                        font-size:45px;
+                        color:green;
+                    }
+                     
+                d. Grouping selector (,)
+                syntax : 
+                    element_name1,element_name2 {
+                     property_name:value;
+                    property_name:value;
+                    .....
+                   }
+                   example : 
+                   div, span{
+                    color:red;
+                    background-color:blue;
+                   }
+
+                e. Descendant selector
+                syntax : 
+                    element_name1 element_name2 {
+                     property_name:value;
+                    property_name:value;
+                    .....
+                   }
+                   example : 
+                   div span{
+                    color:red;
+                    background-color:blue;
+                   } 
+
+                f. Universal selector (*)
+                syntax : 
+                    * {
+                     property_name:value;
+                    property_name:value;
+                    .....
+                   }
+                   example : 
+                   *{
+                    color:red;
+                    background-color:blue;
+                   }
+
+                g. Advanced selector    
+                    i. Attribute selector
+                        input[type="text"]{
+                            .....
+                            .....
+                        }
+
+                    ii. nth-of-Type selector
+                        ul:nth-of-type{
+                            ......
+                        }
+
+                    iii. Pseudo element selector (::)
+                        ::placeholder{
+                            ......
+                        } 
+
+                    iv. Pseudo class selector (:)
+                       a:hover{
+                        ......
+                       } 
+
+                    v. Adjacent sibling selector (+) 
+                        div + span {
+                            ......
+                        }
+
+                    vi. Direct child selector (>) 
+                        div > span {
+                            .......
+                        }
+
+                    vii. General sibling selector (~)
+                         div ~ span{
+                            .........
+                         }   
+
+    </style>
+</head>
+<body>
+    <div></div>
+    <span></span>
+    <p></p>
+</body>
+</html>
