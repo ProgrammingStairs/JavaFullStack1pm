@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 150px;
+            width: 150px;
+            margin: 15px;
+            float: left;
+            border-color: black;
+            border-style: solid;
+        }
+        .demo1{
+           border-radius: 20px;
+           background: linear-gradient(darkslategrey,whitesmoke);
+        }
+        .demo2{
+           border-radius: 60px;
+           background: linear-gradient(darkslategrey,grey,whitesmoke);
+        }
+        .demo3{
+           border-radius: 50%;
+           background: radial-gradient(darkslategrey,whitesmoke);
+        }
+        .demo4{
+           border-radius: 20px 60px 20px 80px;
+           background: repeating-radial-gradient(darkslategrey 20%,whitesmoke 30%);
+        }
+        .demo5{
+           border-radius: 50% 0% 50% 0%;
+            background-color: red;
+        }
+        .demo6{
+           border-radius: 100% 0% 100% 0%;
+            background:url('demo.jpg');
+            background-size: cover;
+        }
+        .demo7{
+           border-radius: 100% 0% 0% 0%;
+           background: repeating-linear-gradient(90deg,darkslategrey 20%,whitesmoke 40%);
+        }
+        .demo8{
+           border-radius: 50% 50% 0% 0%;
+           background: repeating-linear-gradient(darkslategrey 20%,whitesmoke 40%);
+        }
+    </style>
+</head>
+<body>
+    <div class="demo1"></div>
+    <div class="demo2"></div>
+    <div class="demo3"></div>
+    <div class="demo4"></div>
+    <div class="demo5"></div>
+    <div class="demo6"></div>
+    <div class="demo7"></div>
+    <div class="demo8"></div>
+</body>
+</html>
