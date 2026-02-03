@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Pseudo element selectors */
+        span::before{
+            content: "Fill";
+        }
+        span::after{
+            content: " Details";
+        }
+        input::placeholder{
+            color: brown;
+        }
+        li::marker{
+            color:red;
+        }
+        /* Pseudo class selector */
+        li:nth-of-type(even){
+            background-color: green;
+            color:white;
+        }
+        a:hover{
+            background-color: orange;
+            color:white;
+        }
+        a:active{
+            color:red;
+        }
+        /* attribute selector */
+        input[type="text"]{
+            text-transform: uppercase;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="">Click Me</a>
+    <br>
+    <span></span>
+    <input type="text" placeholder="Enter Username"> <br>
+
+    <ul>
+        <li>Item1</li>
+        <li>Item1</li>
+        <li>Item1</li>
+        <li>Item1</li>
+        <li>Item1</li>
+        <li>Item1</li>
+        <li>Item1</li>
+        <li>Item1</li>
+        <li>Item1</li>
+    </ul>
+</body>
+</html>
