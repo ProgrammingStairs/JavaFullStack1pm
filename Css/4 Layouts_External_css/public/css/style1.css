@@ -1,0 +1,46 @@
+#container{
+    height: 98vh;
+    border-style: solid;
+    background-color: grey;
+}
+#header{
+    height: 8vh;
+    border-style: solid;
+    background-color: black;
+}
+#navbar{
+    height: 8vh;
+    border-style: solid;
+    background-color: teal;
+}
+#section{
+    height: 72vh;
+    border-style: solid;
+}
+#left{
+    height: 72vh;
+    width: 25vw;
+    border-style: solid;
+    float: left;
+    background-color: darkslategrey;
+}
+#right{
+    height: 72vh;
+    width: 71.275vw;
+    border-style: solid;
+    float: left;
+        background-color: orange;
+}
+#top,#bottom{
+    height: 20vh;
+    width: 50vw;
+    margin: auto;
+    margin-top: 65px;
+    border-style: solid;
+    background-color: crimson;
+}
+#footer{
+    height: 8vh;
+    background-color: black;
+    border-style: solid;
+}
