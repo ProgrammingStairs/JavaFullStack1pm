@@ -60,3 +60,33 @@
 #btn:hover{
     background-color: #234567;
 }
+#box{
+    height: 200px;
+    padding: 30px;
+    width: 95%;
+    /* background-color: red; */
+}
+#box1,#box2,#box3{
+    height: 180px;
+    width: 300px;
+    /* border-style: solid; */
+    float: left;
+    margin: 10px;
+    margin-left:70px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 40px 1px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+fieldset{
+    width: 240px;
+    margin: 17px;
+    border-style: solid;
+    border-color: #234567;
+    border-width: 8px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+}

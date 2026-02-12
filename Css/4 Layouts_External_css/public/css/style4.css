@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+}
+#outer{
+    height:672px;
+    width: 100%;
+    background-color: dodgerblue;
+}
+#inner{
+    height:672px;
+    width: 100%;
+    background-color: white;
+    border-radius: 0% 0% 0% 100%;
+}
+h1{
+    font-size: 60px;
+    margin-left: 380px;
+    margin-top: 250px;
+    font-family: candara;
+    position: absolute;
+}
